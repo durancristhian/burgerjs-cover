@@ -1,0 +1,24 @@
+:root {
+  --number-font-size: 180px;
+}
+
+body {
+  line-height: 1;
+  margin: 0;
+}
+
+.bg {
+  background-image: url('../assets/bg.png');
+  height: 675px;
+  position: relative;
+  width: 1200px;
+}
+
+.number {
+  color: #f0ad56;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: var(--number-font-size);
+  position: absolute;
+  left: 50%;
+  top: calc(50% - (var(--number-font-size) / 2));
+}
